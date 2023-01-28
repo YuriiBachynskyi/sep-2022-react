@@ -1,5 +1,5 @@
-const Simpson = (props) => {
-    const {name,surname,image} = props;
+const Simpson = ({simpson}) => {
+    const {name,surname,image} = simpson;
     return (
         <div>
             <div>
