@@ -1,7 +1,12 @@
+import {Count, SingleUser, Users} from "./components";
+
+
 const App = () => {
     return (
         <div>
-            App
+            {/*<Count/>*/}
+            <Users/>
+            {/*<SingleUser/>*/}
         </div>
     );
 };
