@@ -20,7 +20,7 @@ const Users = () => {
             <hr/>
 
             <h1>Users:</h1>
-            {/*<button onClick={()=>setCount(prevState => prevState+1)}>click</button>*/}
+            <button onClick={()=>setCount(prevState => prevState+1)}>click</button>
             {users.map(user => <User key={user.id} user={user} setUserDetails={setUserDetails}/>)}
         </div>
     );

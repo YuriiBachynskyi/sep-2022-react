@@ -4,20 +4,14 @@ const Count = () => {
     const [b, setB] = useState(0);
     console.log('Count');
 
-    // const inc = () => {
-    //     setB(prevState => prevState+1)
-    // }
-    //
-    // return (
-    //     <div>
-    //         <div>B:{b}</div>
-    //         <button onClick={() => inc()}>Inc</button>
-    //     </div>
-    // );
+    const inc = () => {
+        setB(prevState => prevState+1)
+    }
+
     return (
         <div>
             <div>B:{b}</div>
-            <button onClick={() => setB(prevState => prevState + 1)}>Inc</button>
+            <button onClick={() => inc()}>Inc</button>
         </div>
     );
 };
